@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", serif;
+}
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Nav Bar Styles Starts */
+.nav-bar {
+    margin-top: 30px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+}
+.nav-bar-title {
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+}
+.nav-btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 24px;
+    color: rgb(5, 161, 122);
+    border: 1px solid rgb(5, 161, 122);
+    background-color: #fff;
+}
+/* Nav Bar Styles Ends Here */
+
+/* Banner Section Styles Starts */
+.banner {
+    margin-top: 30px;
+    height: 500px;
+    background-color: rgb(198, 228, 214);
+    border-radius: 24px;
+}
+.banner-parent {
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-textarea {
+    margin-left: 45px;
+}
+.bn-hd-1 {
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 18px;
+}
+.bn-hd-2 {
+    font-size: 56px;
+    color: rgb(14, 14, 14);
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: left;
+    max-width: 90%;
+}
+.bn-img {
+    width: 400px;
+    height: 350px;
+    margin-right: 50px;
+}
+.bn-btn {
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+    padding: 13px 32px;
+    background-color: rgb(0, 106, 80);
+    font-size: 16px;
+}
+/* Banner Section Styles Ends */
