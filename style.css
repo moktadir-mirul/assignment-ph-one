@@ -7,6 +7,7 @@
 body {
     width: 90%;
     margin: 0 auto;
+    background-color: rgb(237, 237, 237);
 }
 
 /* Nav Bar Styles Starts */
@@ -158,7 +159,7 @@ body {
     color: rgb(255, 255, 255);
     font-size: 15px;
     font-weight: 600;
-    background-color: rgb(9, 161, 92);;
+    background-color: rgb(9, 161, 92);
 }
 .card-btn-3 {
     outline: none;
@@ -168,9 +169,63 @@ body {
     color: rgb(255, 255, 255);
     font-size: 15px;
     font-weight: 600;
-    background-color: rgb(255, 194, 57);;
+    background-color: rgb(255, 194, 57);
 }
 /* Future Section Style Ends */
 
 /* Comment Section Style Starts Here */
+.comment-area {
+    margin-top: 40px;
+    width: 100%;
+    height: 260px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 14px;
+    padding: 36px 21px;
+    background-color: rgba(255, 255, 255);
+    
+}
+.cm-img {
+    position: absolute;
+}
+.cm-comment {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    position: relative;
+    padding-top: 28px;
+}
+.cm-name {
+    margin-top: 15px;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.cm-designation {
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    margin-top: 10px;
+}
+
 /* Comment Section Style Ends Here */
+
+/* Recent News Area Style Starts */
+.recent-news-area {
+    margin-top: 70px;
+}
+.news-hd {
+    color: rgb(14, 14, 14);
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.news-para{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+/* Recent News Area Style Ends */
