@@ -76,3 +76,101 @@ body {
     font-size: 16px;
 }
 /* Banner Section Styles Ends */
+
+/* Future Section Style Starts */
+.future-area {
+    margin-top: 80px;
+}
+.ft-hd-1 {
+    font-size: 38px;
+    color: rgb(14, 14, 14);
+    letter-spacing: 0.3px;
+    line-height: 40px;
+    margin-bottom: 24px;
+}
+.ft-para {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.card-container {
+    display: flex;
+    gap: 30px;
+}
+.ft-card-1 {
+    width: 600px;
+    height: 290px;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.ft-card-2 {
+    width: 600px;
+    height: 290px;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: rgb(198, 228, 214);
+}
+.ft-card-3 {
+    width: 600px;
+    height: 290px;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: rgb(247, 235, 207);
+}
+.card-icon {
+    width: 50px;
+    height: 54px;
+    margin-bottom: 15px;
+}
+.card-hd {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.card-para {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    margin-bottom: 15px;
+    }
+.card-btn-1 {
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(84, 144, 245);
+}
+.card-btn-2 {
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(9, 161, 92);;
+}
+.card-btn-3 {
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(255, 194, 57);;
+}
+/* Future Section Style Ends */
+
+/* Comment Section Style Starts Here */
+/* Comment Section Style Ends Here */
