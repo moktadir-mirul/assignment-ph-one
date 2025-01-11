@@ -30,6 +30,10 @@ body {
     border: 1px solid rgb(5, 161, 122);
     background-color: #fff;
 }
+.nav-btn:hover {
+    background-color: rgb(5, 161, 122);
+    color: rgb(255, 255, 255)
+}
 /* Nav Bar Styles Ends Here */
 
 /* Banner Section Styles Starts */
@@ -75,6 +79,10 @@ body {
     padding: 13px 32px;
     background-color: rgb(0, 106, 80);
     font-size: 16px;
+}
+.bn-btn:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(13, 42, 34);
 }
 /* Banner Section Styles Ends */
 
@@ -170,6 +178,10 @@ body {
     font-size: 15px;
     font-weight: 600;
     background-color: rgb(255, 194, 57);
+}
+.card-hover:hover {
+    color: rgb(255, 255, 255);
+    background-color: tomato;
 }
 /* Future Section Style Ends */
 
@@ -286,6 +298,10 @@ body {
     color: rgb(255, 255, 255);
     background: rgb(0, 106, 80);
 }
+.news-card-btn:hover {
+    color: rgb(255, 255, 255);
+    background-color: tomato;
+}
 /* News Card Style */
 /* Recent News Area Style Ends */
 
@@ -353,6 +369,10 @@ body {
     border-radius: 8px;
     padding: 15px 30px;
 }
+.donate-btn:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(25, 65, 55);
+}
 /* Donate Area Style Ends */
 
 /* Subcription Area Style Starts */
@@ -407,3 +427,38 @@ body {
     font-weight: 400;
 }
 /* Subcription Area Style Ends */
+
+/* Footer Area Styles Start */
+footer {
+    margin-top: 60px;
+}
+.foot-area {
+    margin-top: 50px;
+    width: 100vw;
+    height: 200px;
+    margin-left: -60px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.foot-hd {
+    padding-top: 45px;
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+hr {
+    width: 60%;
+    margin: 0 auto;
+}
+.foot-icons {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.foot-icon {
+    width: 24px;
+    height: 24px;
+}
+/* Footer Area Styles Ends */
